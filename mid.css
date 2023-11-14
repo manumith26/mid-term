@@ -1,0 +1,46 @@
+body {
+    font-family: 'Comic Sans MS';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-size: cover;
+}
+
+#game-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
